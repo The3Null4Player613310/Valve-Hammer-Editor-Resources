@@ -26,7 +26,7 @@ Architecture
     64  =  4' 0"    normal corridor width
    108  =  6' 9"    normal door height
     48  =  3' 6"    normal door width
-   171	= 10' 8"	normal road lane
+   171	= 10' 8"    normal road lane
 
 Ground Obstacle Height
 This is the maximum height, in units, an object can be while still allowing the player to walk over it.
@@ -52,4 +52,4 @@ This is the minimum size, in units, that can be between two objects while still 
 
 Gradient
 This is the maximum slope angle, in degrees from the horizontal, that the player can scale. Anything steeper than this is un-climbable.
-	Gradient: 45°
+	Gradient: 45Â°
