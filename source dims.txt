@@ -1,0 +1,55 @@
+Map Grid    Imperial    Metric
+
+     1  =   0.75"   =   19.05mm
+     2  =   1.5"    =   38.10mm
+     4  =   3"      =   76.20mm
+     8  =   6"      =  152.40mm
+    16  =   1'      =  304.80mm
+    32  =   2'      =  609.60mm
+    64  =   4'      =    1.22m
+   128  =   8'      =    2.44m
+  (160  =  10'      =    3.05m
+   256  =  16'      =    4.88m
+   512  =  32'      =    9.75m
+
+Player Collision Hull
+    32  =  2' 0"    width & length
+    36  =  2' 3"    height crouching
+    72  =  4' 6"    height standing
+
+Player Eyelevel
+    28  =  1' 9"    height crouching
+    64  =  4' 0"    height standing
+
+Architecture
+   128  =  8' 0"    normal corridor height
+    64  =  4' 0"    normal corridor width
+   108  =  6' 9"    normal door height
+    48  =  3' 6"    normal door width
+   171	= 10' 8"	normal road lane
+
+Ground Obstacle Height
+This is the maximum height, in units, an object can be while still allowing the player to walk over it.
+	Crouched: 18
+	Standing: 18
+
+Overhead Obstacle Height
+This is the minimum distance, in units, that can be between the ground and an object while still allowing the player to pass underneath.
+	Crouched: 37
+	Standing: 73
+	Left 4 Dead Crouched: 56
+	Counter-Strike Source Crouched: 50
+	Counter-Strike Source Standing: 63
+	CS:GO Crouched: 55
+	CS:GO Standing: 73
+
+Minimum Path Size
+This is the minimum size, in units, that can be between two objects while still allowing the player to pass between them.
+	Width: 33 (Between collision surfaces oriented along the x or y axis.)
+	Width: 46 (Walls rotated 45 degrees to grid.)
+	Width: 65 (On-axis width between walls skewed to 45 degrees relative to grid.)
+	Height: 37
+
+Gradient
+This is the maximum slope angle, in degrees from the horizontal, that the player can scale. Anything steeper than this is un-climbable.
+	Gradient: 45°
